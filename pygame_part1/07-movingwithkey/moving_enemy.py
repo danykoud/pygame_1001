@@ -74,12 +74,12 @@ while run:
     if shipwidth <=0 :
         shipwidth= 0
 
-    # bullet
-    # if bulletstate is "fire":
-    #     bullety -= bulletmove
-    # if bullety < 0 :
-    #     bullety= 308
-    #     bulletstate= "ready"
+    bullet
+    if bulletstate is "fire":
+        bullety -= bulletmove
+    if bullety < 0 :
+        bullety= 308
+        bulletstate= "ready"
 
 #    display surfaces
     screen.blit(bullet,(shipwidth + 13,bullety+ 8))
